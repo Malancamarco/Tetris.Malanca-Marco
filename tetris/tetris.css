@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url(/bg\ tetris.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}
+
+canvas{
+    border: 5px solid grey;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1, h2, h4{
+    text-align: center;
+    color: white;
+}
+
+ 
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-weight: 400;
+    text-shadow: -3px 3px 3px #828282;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+
+h2{
+    margin-top: 25px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: -3px 3px 3px #828282;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    font-size: medium;
+}
+
+h4{
+    color: rgb(25, 98, 255);
+    font-family: 'Press Start 2P', cursive;
+    font-size: small
+}
+
+a{
+    color: blue;
+
+}
